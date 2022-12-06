@@ -1,5 +1,5 @@
 from typing import Union, List, Dict
-# from src.insights.jobs import read
+from src.insights.jobs import read
 
 
 def get_salaries_set(type: str, jobs_list: list) -> set:
@@ -13,7 +13,9 @@ def get_salaries_set(type: str, jobs_list: list) -> set:
 
 
 def get_max_salary(path: str) -> int:
-    pass
+    jobs = read(path)
+    max_salaries = get_salaries_set("max_salary", jobs)
+    return max(max_salaries)
 
 
 def get_min_salary(path: str) -> int:
