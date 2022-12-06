@@ -19,7 +19,9 @@ def get_max_salary(path: str) -> int:
 
 
 def get_min_salary(path: str) -> int:
-    pass
+    jobs = read(path)
+    min_salaries = get_salaries_set("min_salary", jobs)
+    return min(min_salaries)
 
 
 def matches_salary_range(job: Dict, salary: Union[int, str]) -> bool:
