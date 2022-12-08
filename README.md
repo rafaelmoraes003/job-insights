@@ -35,7 +35,10 @@ Faça o clone da aplicação usando o comando `git clone`. Após isso, entre na 
 2. Instale as dependências
 - `python3 -m pip install -r dev-requirements.txt`
 
-3. Entre na página da aplicação
+3. Inicialize o flask
+- `flask run`
+
+4. Entre na página da aplicação
 - `http://127.0.0.1:5000/`
 
 ###
