@@ -5,7 +5,7 @@ from src.insights.jobs import read
 def get_unique_industries(path: str) -> List[str]:
     jobs = read(path)
     industries = {job["industry"] for job in jobs if job["industry"]}
-    return industries
+    return list(industries)
 
 
 def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
