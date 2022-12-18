@@ -2,11 +2,11 @@
 
 ###
 
-<p align="left">Neste projeto, foram implementadas análises a partir de um conjunto de dados sobre empregos. As implementações foram incorporadas a um aplicativo Web desenvolvido com Flask. Também foram escritos testes para a implementação de uma análise de dados. Por fim, foi desenvolvida uma rota e view para um recurso novo utilizando o Flask!</p>
+<p align="left">In this project, analyzes were implemented from a dataset about jobs. The implementations were incorporated into a web application developed with Flask. Tests were also written for implementing a data analysis. Finally, a route and view was developed for a new resource using Flask!</p>
 
 ###
 
-<h2 align="left">Tecnologias utilizadas</h2>
+<h2 align="left">Technologies used</h2>
 
 ###
 
@@ -17,34 +17,34 @@
 
 ###
 
-<h2 align="left">Como utilizar a aplicação</h2>
+<h2 align="left">How to use the application</h2>
 
 ###
 
-Faça o clone da aplicação usando o comando `git clone`. Após isso, entre na pasta do projeto utilizando o comando `cd job-insights`.
+Clone the application using the `git clone` command. After that, enter the project folder using the command `cd job-insights`.
 
 ###
 
-<h2 align="left">Como rodar a aplicação</h2>
+<h2 align="left">How to run the application</h2>
 
 ###
 
-1. Crie o ambiente virtual para o projeto
+1. Create the virtual environment for the project
 - `python3 -m venv .venv && source .venv/bin/activate`
 
-2. Instale as dependências
+2. install the dependencies
 - `python3 -m pip install -r dev-requirements.txt`
 
-3. Inicialize o Flask
+3. Initialize Flask
 - `flask run`
 
-4. Entre na página da aplicação
+4. Enter the application page
 - `http://127.0.0.1:5000/`
 
 ###
 
-<h2 align="left">Rodando os testes</h2>
+<h2 align="left">Running the tests</h2>
 
 ###
 
-Para conseguir fazer a verificação dos testes, utilize o comando `python3 -m pytest`.
+To be able to verify the tests, use the command `python3 -m pytest`.
